@@ -13,4 +13,10 @@ MaciASL is used to compile the .dsl file to AML (ACPI Machine Language Binary)
 The compiled .aml file that I have attached will need to be placed into 
 the "EFI/Clover/ACPI/Patched" folder.
 
-Reboot and all your USB ports should be accessible. 
+Reboot and all your USB ports should be accessible.
+
+Update: 8 / 11 / 2020
+
+I have included an updated AML binary that includes the updated USB 2.0 headers on the motherboard below the chipset.
+
+Please use the SSDT-UIAC-2020.aml binary instead.
